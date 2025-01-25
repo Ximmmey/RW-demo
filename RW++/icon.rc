@@ -1,0 +1,3 @@
+﻿#include "winresrc.h"
+
+RWPP_ICON ICON "rwpp.ico"
