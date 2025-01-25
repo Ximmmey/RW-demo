@@ -37,8 +37,8 @@ Radius does technically work, but sprite of the collider is unaffected (and coll
 
 You may also enable the geo debug, which will show you what is considered "solid" geometry and modify collider's gravity.
 
-![Alt text](image/demo.png)
+![Well, screenshot of the demo failed to load](image/demo.png)
 
 Project is not quite up to parity
 
-![Alt text](image/rw.png)
+![Well, screenshot of the game failed to load](image/rw.png)
