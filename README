@@ -37,8 +37,8 @@ Radius does technically work, but sprite of the collider is unaffected (and coll
 
 You may also enable the geo debug, which will show you what is considered "solid" geometry and modify collider's gravity.
 
-![alt text](https://raw.githubusercontent.com/Ximmmey/RW-demo/main/images/demo.png "C++ demo")
+!["alt text"](https://raw.githubusercontent.com/Ximmmey/RW-demo/main/images/demo.png "C++ demo")
 
 Project is not quite up to parity
 
-![alt text](https://raw.githubusercontent.com/Ximmmey/RW-demo/main/images/rw.png "Rain World")
+!["alt text"](https://raw.githubusercontent.com/Ximmmey/RW-demo/main/images/rw.png "Rain World")
