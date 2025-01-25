@@ -76,3 +76,20 @@ target_link_libraries(rwpp PRIVATE GPUOpen::VulkanMemoryAllocator)
 
 find_package(unofficial-iniparser CONFIG REQUIRED) # .INI file support
 target_link_libraries(rwpp PRIVATE unofficial::iniparser::iniparser)
+
+add_executable(test_room_geometry
+    test/test_room_geometry.cpp
+    RW++/custom/geometry.h       
+    RW++/custom/custom.h
+    RW++/custom/matrix.h
+)
+
+target_link_libraries(test_room_geometry gtest gtest_main)
+
+target_include_directories(test_room_geometry PRIVATE RW++/custom)
+
+# Enable testing
+enable_testing()
+
+# Register the test
+add_test(NAME RoomGeometryTest COMMAND test_room_geometry)
