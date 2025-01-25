@@ -44,6 +44,15 @@ public:
 
     //it might be more accurate to name velocity "dPos", but this works fine too
     void Update(glm::vec2 g) {
+        if(std::isinf(vel.x))
+        {
+            vel.x = 0;
+        }
+        if(std::isinf(vel.y))
+        {
+            vel.y = 0;
+        }
+
         vel += g;
         vel *= (1 - friction);
 

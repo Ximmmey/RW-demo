@@ -19,7 +19,7 @@ public:
     explicit SimpleCollider(const std::shared_ptr<Scene> &scene, const glm::vec2 pos, const glm::vec2 g, const glm::vec2 offset, RoomGeometry &room)
         : scene(scene),
           gravity(g),
-          bodychunk(pos, 1.0f, 16.0f, 0.05f, 0.05f, room) {
+          bodychunk(pos, 1.0f, 16.0f, 0.55f, 0.05f, room) {
         if (!this->scene->TextureLeaser.try_get("circle32", &circle_image))
             circle_image = this->scene->TextureLeaser.load_file(this->scene->ImmediateCmd, "assets/circle.png", "circle32");
 
