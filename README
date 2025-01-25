@@ -4,9 +4,9 @@ Tested on device with Ryzen 3 5300U with Radeon Graphics 384SP integrated graphi
 
 To compile project, you will have to initiate git submodules and install vcpkg packages. If git submodules fail to clone, you add them manually using:
 
-git submodule add https://github.com/libsdl-org/SDL SDL
+git submodule add --force https://github.com/libsdl-org/SDL SDL
 git submodule add --force --branch docking https://github.com/ocornut/imgui.git imgui
-git submodule add https://github.com/charles-lunarg/vk-bootstrap vk-bootstrap
+git submodule add --force https://github.com/charles-lunarg/vk-bootstrap vk-bootstrap
 
 Make sure you are pulling DOCKING branch of imgui. You are also free to just clone git repos instead of using submodules.
 
