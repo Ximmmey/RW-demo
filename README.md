@@ -36,6 +36,10 @@ Mass currently does nothing (as it is leftover from interactions with other coll
 Radius does technically work, but sprite of the collider is unaffected (and collision checks with geometry fail for smaller colliders)
 You may also enable the geo debug, which will show you what is considered "solid" geometry and modify collider's gravity.
 
+You may run example GTest with:
+
+./test_room_geometry
+
 ![alt text](https://raw.githubusercontent.com/Ximmmey/RW-demo/main/images/demo.png "C++ demo")
 
 There is still a long way to go
